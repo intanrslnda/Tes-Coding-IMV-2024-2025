@@ -42,7 +42,41 @@
 
 ### ***Tes Coding : Basic Python***
 
-1. Tambahakan soal disini!
+1. Buatlah program sederhana dengan output seperti dibawah! (Gunakan Looping)
+
+```python
+                    *   
+                  *   *   
+                *   *   *   
+              *   *   *   *   
+            *   *   *   *   *   
+          *   *   *   *   *   *   
+        *   *   *   *   *   *   *   
+          *   *   *   *   *   *   
+            *   *   *   *   *   
+              *   *   *   *   
+                *   *   *   
+                  *   *   
+                    *   
+```
+2. Terdapat 2 buah list dengan panjang acak. Buatlah sebuah fungsi untuk melakukan operasi konvolusi dari dua list tersebut! **(dilarangan menggunakan library external)**
+
+```python
+# EXAMPLES
+
+# Two random length lists
+a = [1, 2, 3, 4, 5]
+b = [1, 1, 1]
+# Expected result
+[1, 3, 6, 9, 12, 9, 5]
+
+# Two random length lists
+x = [1, 2, 3, 4, 5]
+y = [4, 3, 2, 1, 2, 3, 4]
+# Expected result
+[4, 11, 20, 30, 42, 33, 30, 30, 34, 31, 20]
+```
+
 
 
 ### ***Tes Coding : Image Processing***
