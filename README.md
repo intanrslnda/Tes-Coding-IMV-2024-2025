@@ -40,6 +40,8 @@
 
 1. Harga sebuah GPU dan sebuah Webcam adalah `Rp5.500.000`. Jika harga GPU lebih besar `Rp5.000.000` dari harga Webcam. Berapakah harga dari masing-masing GPU dan Webcam? Jelaskan sesederhana mungkin!
 
+2. Sebuah kereta cepat berangkat dari stasiun Bandung ke stasiun Jakarta dengan kecepatan konstan. Waktu tempuh kereta cepat adalah `30 menit`. Jika kereta berjalan `50km/jam` lebih cepat, waktu tempuh berkurang `10 menit`. Berapakah jarak antara stasiun Bandung dan Jakarta? Jelaskan sesederhana mungkin!
+
 ### ***Tes Coding : Basic Python***
 
 1. Buatlah program sederhana dengan output seperti dibawah! (Gunakan Looping)
