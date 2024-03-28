@@ -42,6 +42,25 @@
 
 2. Sebuah kereta cepat berangkat dari stasiun Bandung ke stasiun Jakarta dengan kecepatan konstan. Waktu tempuh kereta cepat adalah `30 menit`. Jika kereta berjalan `50km/jam` lebih cepat, waktu tempuh berkurang `10 menit`. Berapakah jarak antara stasiun Bandung dan Jakarta? Jelaskan sesederhana mungkin!
 
+3. Pencuri dan Polisi 
+Petunjuk yang diberikan : `polisi selalu berkata jujur` dan `pencuri selalu berkata bohong.` 
+Suatu hari ada suatu kasus pencurian yang melibatkan polisi dan pencuri. 
+
+    Disini kita ditugaskan untuk mencari siapa pencuri dan siapa polisi. Terdapat `3 tersangka` yaitu Hari, Budi dan Lestari. 
+    Ketika dilakukan interogasi, masing- masing dari mereka memberikan pernyataan 
+
+    Hari : "Salah satu pernyataan yang saya katakan adalah benar, yaitu Budi adalah pencuri atau saya adalah polisi" 
+
+    Lestari : "Budi bisa saja menuduh bahwa saya adalah pencuri" 
+
+    Budi : "Lestari dan Hari bukanlah seorang polisi" 
+
+    Tentukan siapa yang merupakan polisi dan pencurinya.
+ Jawaban : 
+ Budi menyatakan bahwa lestari dan hari bukan seorang polisi, maka pernyataannya bisa dibuat menjadi lestari dan hari merupakan pencuri, dengan begitu Budi adalah polisi. (ingat polisi tidak boleh berbohong)
+ Hari dengan pernyataannya bisa dikatakan sebagai pencuri karena kedua pernyataanya yang salah memenuhi persyaratan bahwa pencuri selalu berbohong.
+ Lestari merupakan pencuri karena pernyataan dia salah tentang hari menuduh dirinya sebagai pencuri.
+
 ### ***Tes Coding : Basic Python***
 
 1. Buatlah program sederhana dengan output seperti dibawah! (Gunakan Looping)
@@ -83,8 +102,8 @@ y = [4, 3, 2, 1, 2, 3, 4]
 
 ### ***Tes Coding : Image Processing***
 
-1. Tambahakan soal disini!
+1. Transformasikan gambar dibawah ini ke domain frekuensi lalu kembalikan ke domain 
 
 ### ***SOAL BONUS!***
 
-1. Tambahakan soal disini!
+1. (Denoising Image)
