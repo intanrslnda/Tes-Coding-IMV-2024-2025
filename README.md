@@ -56,10 +56,6 @@
     Budi : "Lestari dan Hari bukanlah seorang polisi" 
 
     Tentukan siapa yang merupakan polisi dan pencurinya!
-    Jawaban : 
-    Budi menyatakan bahwa lestari dan hari bukan seorang polisi, maka pernyataannya bisa dibuat menjadi lestari dan hari merupakan pencuri, dengan begitu Budi adalah polisi. (ingat polisi tidak boleh berbohong)
-    Hari dengan pernyataannya bisa dikatakan sebagai pencuri karena kedua pernyataanya yang salah memenuhi persyaratan bahwa pencuri selalu berbohong.
-    Lestari merupakan pencuri karena pernyataan dia salah tentang hari menuduh dirinya sebagai pencuri.
 
 ### ***Tes Coding : Basic Python***
 
@@ -80,6 +76,7 @@
                       *   *   
                         *   
     ```
+
 2. Terdapat 2 buah list dengan panjang acak. Buatlah sebuah fungsi untuk melakukan operasi [**konvolusi**](https://en.wikipedia.org/wiki/Convolution) dari dua list tersebut! **(dilarangan menggunakan library external)**
 
     ```python
@@ -98,8 +95,6 @@
     [4, 11, 20, 30, 42, 33, 30, 30, 34, 31, 20]
     ```
 
-
-
 ### ***Tes Coding : Image Processing***
 
 1. Transformasikan gambar dibawah ini ke domain frekuensi lalu kembalikan ke domain 
@@ -107,6 +102,10 @@
 2. Lakukan *image pre-processing* berupa flip horizontal, flip vertikal, dan transpose pada gambar `emma.jpg` lalu simpan masing-masing hasil *image pre-processing* tersebut dalam file baru (emma_flip_vertikal.jpg, emma_flip_vertikal.jpg, emma_transpose.jpg) 
 
     ![Emma!](/display/emma_preprocessing.jpg "Emma")
+
+3. Lakukan *image segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
+
+    ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
 ### ***SOAL BONUS!***
 
