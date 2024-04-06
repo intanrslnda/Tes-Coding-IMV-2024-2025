@@ -1,6 +1,6 @@
 <h1 style=" text-align: center; font-weight: bold;">TEST CODING IMV 2024/2025</h1>
 
-<img title="a title" alt="Alt text" src="/display/banner.png">
+<img title="a title" alt="Alt text" src="display/banner.png">
 
 ## ***PERATURAN TES CODING***
 
