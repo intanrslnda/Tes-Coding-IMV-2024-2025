@@ -152,15 +152,18 @@ Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
 
     ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
-3. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
+3. Lakukan pengolahan gambar pada asset yang telah diberikan `ayon.jpeg` dengan mengubah gambar menjadi grayscale dan bnw.
 
-   ![ayon!](/display/result_ayon.png "Ayon")
+   ![ayon!](/display/result_ahyeon.png "Ayon")
 
-4. Lakukan Image Segmentation menggunakan K-means clustering yang akan menghasilkan superpixel pada gambar `ponyo.png`. Simpan hasil Image Segmentation dalam file baru (ponyo_clustering.jpg)
+4. Lakukan image preprocessing 
+
+5. Lakukan Image Segmentation menggunakan K-means clustering yang akan menghasilkan superpixel pada gambar `ponyo.png`. Simpan hasil Image Segmentation dalam file baru (ponyo_clustering.jpg)
 
    ![ponyo!](/display/ponyo_segmentation.png "Ponyo")
 
-5. Lakukan Image Preprocessing berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut.
+
+6. Lakukan Image Preprocessing berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut.
     - Image Rescaling menjadi 2 kali lipat gambar aslinya (Simpan hasilnya dalam file baru yaitu haku_scaled.jpg)
     - Noise Reduction menggunakan Gaussian Blur (Simpan hasilnya dalam file baru yaitu haku_blur.jpg)
 
