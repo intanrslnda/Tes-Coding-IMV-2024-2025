@@ -166,25 +166,29 @@ Lakukanlah operasi transpose pada matriks 3 x 4 berikut ini!
 
 ### ***Tes Coding : Image Processing***
 
-1. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
+1. Lakukan *Preprocessing* berupa *Flip Horizontal*, *Flip Vertikal*, dan *Transpose* pada gambar `emma.jpg` lalu simpan masing-masing hasil *Preprocessing* tersebut dalam file baru yaitu `emma_flip_vertikal.jpg`, `emma_flip_vertikal.jpg`, `emma_transpose.jpg`. 
+
+    ![emma!](/display/emma_preprocessing.jpg "Emma")
+
+2. Lakukan *Preprocessing* pada gambar `ayon.jpeg` dengan mengubah gambar menjadi *Grayscale* dan *BnW*. Simpan hasilnya dalam file baru yaitu `ayon_grayscale.jpeg` dan `ayon_bnw.jpeg`.
 
    ![ayon!](/display/result_ayon.png "Ayon")
 
-2. Lakukan *image pre-processing* berupa flip horizontal, flip vertikal, dan transpose pada gambar `emma.jpg` lalu simpan masing-masing hasil *image pre-processing* tersebut dalam file baru (emma_flip_vertikal.jpg, emma_flip_vertikal.jpg, emma_transpose.jpg) 
+3. Lakukan transformasi fourier pada gambar `ayon.jpeg` lalu simpan hasilnya dalam file baru yaitu `ayon_fft.jpeg`.
 
-    ![Emma!](/display/emma_preprocessing.jpg "Emma")
+    ![ayon!](/display/fft_ayon.png "Ayon")
 
-3. Lakukan Image Preprocessing berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut:
-    - Image Rescaling menjadi 2 kali lipat gambar aslinya (Simpan hasilnya dalam file baru yaitu `haku_scaled.jpg`)
-    - Noise Reduction menggunakan Gaussian Blur (Simpan hasilnya dalam file baru yaitu `haku_blur.jpg`)
+4. Lakukan *Image Preprocessing* berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut.
+    - Image Rescaling menjadi 2 kali lipat gambar aslinya (Simpan hasilnya dalam file baru yaitu haku_scaled.jpg)
+    - Noise Reduction menggunakan Gaussian Blur (Simpan hasilnya dalam file baru yaitu haku_blur.jpg)
 
    ![haku!](/display/haku_preprocessing.png "Haku")
 
-4. Lakukan *image segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
+5. Lakukan *Image Segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
 
-    ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
+    ![ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
-5. Lakukan Image Segmentation menggunakan K-means clustering yang akan menghasilkan superpixel pada gambar `ponyo.png`. Simpan hasil Image Segmentation dalam file baru (`ponyo_clustering.jpg`)
+6. Lakukan *Image Segmentation* menggunakan *K-means Clustering* yang akan menghasilkan superpixel dari gambar `ponyo.jpg`. Simpan hasil *Image Segmentation* dalam file baru yaitu `ponyo_clustering.jpg`. 
 
    ![ponyo!](/display/ponyo_segmentation.png "Ponyo")
 
