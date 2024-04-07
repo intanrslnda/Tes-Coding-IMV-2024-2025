@@ -89,20 +89,27 @@
     # Expected result
     [1, 3, 6, 9, 12, 9, 5]
 
-# Two random length lists
-x = [1, 2, 3, 4, 5]
-y = [4, 3, 2, 1, 2, 3, 4]
-# Expected result
-[4, 11, 20, 30, 42, 33, 30, 30, 34, 31, 20]
+    `````
+    `````
+    # Two Random lenght lists
+    x = [1, 2, 3, 4, 5]
+    y = [4, 3, 2, 1, 2, 3, 4]
+    # Expected result
+    [4, 11, 20, 30, 42, 33, 30,  30, 34, 31, 20]
+    `````
 
+3. Basic Python 
+Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
+    ```
+    X = [[98, 88, 78],
+        [77, 78, 79],
+        [66, 67, 68],
+        [32, 33, 31]] 
+    ```
 
-3.Basic Python 
-Transpose matrix berikut
-```
-X = [[98, 88, 78],
-     [77, 78, 79],
-     [66. 67. 68]] 
-```
+4. Buatlah program sederhana untuk memeriksa apakah sebuah bilangan itu ganjil atau genap!
+    ```
+     # Two random length lists
 
 
 
@@ -121,28 +128,5 @@ X = [[98, 88, 78],
 
 4. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
 
-1. Fill The Blank this AutoEncoder Syntax 
+### ***Soal Bonus ***
 
-```
-# Buat Model Autoencoder
-
-# YOUR CODE HERE
-# Define input shape
-input_shape = (32, 32, 3)  # Adjust according to your image dimensions
-
-# Encoder
-inputs = Input(shape=input_shape)
-x = Conv2D(32, (3, 3), activation='relu', padding='same')(inputs)
-x = MaxPooling2D((2, 2), padding='same')(x)
-x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
-encoded = MaxPooling2D((2, 2), padding='same')(x)
-
-# Decoder
-x = Conv2D(64, (3, 3), activation='relu', padding='same')(encoded)
-x = UpSampling2D((2, 2))(x)
-x = Conv2D(32, (3, 3), activation='relu', padding='same')(x)
-x = UpSampling2D((2, 2))(x)
-decoded = Conv2D(3, (3, 3), activation='sigmoid', padding='same')(x)  # Output has same shape as input
-
-autoencoder = Model(__________, __________)
- ```
