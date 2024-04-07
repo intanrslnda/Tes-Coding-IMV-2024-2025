@@ -157,7 +157,7 @@ Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
    ![ayon!](/display/result_ahyeon.png "Ayon")
 
 4. Lakukan transformasi fourier pada gambar `ayon.jpeg` 
-    ![ayon!](/display/fft_ayon "Ayon")
+    ![ayon!](/display/fft_ayon.png "Ayon")
 
 5. Lakukan Image Segmentation menggunakan K-means clustering yang akan menghasilkan superpixel pada gambar `ponyo.png`. Simpan hasil Image Segmentation dalam file baru (ponyo_clustering.jpg)
 
