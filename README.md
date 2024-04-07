@@ -152,11 +152,11 @@ Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
 
     ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
-3. Lakukan pengolahan gambar pada asset yang telah diberikan `ayon.jpeg` dengan mengubah gambar menjadi grayscale dan bnw.
+3. Lakukan pengolahan gambar pada asset yang telah diberikan `ayon.jpeg` dengan mengubah gambar menjadi grayscale dan bnw. Lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ayon.jpeg`, `result_ayon.jpg`)
 
    ![ayon!](/display/result_ahyeon.png "Ayon")
 
-4. Lakukan transformasi fourier pada gambar `ayon.jpeg` 
+4. Lakukan transformasi fourier pada gambar `ayon.jpeg`. Lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ayon.jpeg`, `fft__ayon.jpg`)
     ![ayon!](/display/fft_ayon.png "Ayon")
 
 5. Lakukan Image Segmentation menggunakan K-means clustering yang akan menghasilkan superpixel pada gambar `ponyo.png`. Simpan hasil Image Segmentation dalam file baru (ponyo_clustering.jpg)
