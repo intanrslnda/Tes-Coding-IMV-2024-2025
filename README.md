@@ -178,13 +178,13 @@ Lakukanlah operasi transpose pada matriks 3 x 4 berikut ini!
 
     ![ayon!](/display/fft_ayon.png "Ayon")
 
-4. Lakukan *Image Preprocessing* berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut.
-    - Image Rescaling menjadi 2 kali lipat gambar aslinya (Simpan hasilnya dalam file baru yaitu haku_scaled.jpg)
-    - Noise Reduction menggunakan Gaussian Blur (Simpan hasilnya dalam file baru yaitu haku_blur.jpg)
+4. Lakukan *Image Preprocessing* berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut:
+    - Image Rescaling menjadi 2 kali lipat gambar aslinya. Simpan hasilnya dalam file baru yaitu `haku_scaled.jpg`.
+    - Noise Reduction menggunakan Gaussian Blur. Simpan hasilnya dalam file baru yaitu `haku_blur.jpg`.
 
    ![haku!](/display/haku_preprocessing.png "Haku")
 
-5. Lakukan *Image Segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
+5. Lakukan *Image Segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru yaitu `ashlyn_mask.jpg` dan `ashlyn_final.jpg`.
 
     ![ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
