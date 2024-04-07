@@ -117,19 +117,18 @@ Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
      Masukkan angka: 68
      Angka tersebut adalah bilangan genap
 ### ***Tes Coding : Image Processing***
-1. Ubah gambar di bawah ini menjadi grey-scale image
-(input gambar)
- 
 
-2. Lakukan *image pre-processing* berupa flip horizontal, flip vertikal, dan transpose pada gambar `emma.jpg` lalu simpan masing-masing hasil *image pre-processing* tersebut dalam file baru (emma_flip_vertikal.jpg, emma_flip_vertikal.jpg, emma_transpose.jpg) 
+1. Lakukan *image pre-processing* berupa flip horizontal, flip vertikal, dan transpose pada gambar `emma.jpg` lalu simpan masing-masing hasil *image pre-processing* tersebut dalam file baru (emma_flip_vertikal.jpg, emma_flip_vertikal.jpg, emma_transpose.jpg) 
 
     ![Emma!](/display/emma_preprocessing.jpg "Emma")
 
-3. Lakukan *image segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
+2. Lakukan *image segmentation* pada gambar `ashlyn.jpg` lalu simpan hasil masking dan hasil final tersebut dalam file baru (`ashlyn_mask.jpg`, `ashlyn_final.jpg`)
 
     ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
-4. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
+3. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
 
-### ***Soal Bonus ***
+   ![ayon!](/display/result_ayon.png "Ayon")
+
+### ***Soal Bonus***
 
