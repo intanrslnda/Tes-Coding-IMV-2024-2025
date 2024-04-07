@@ -1,6 +1,6 @@
-<h1 style=" text-align: center; font-weight: bold;">TEST CODING IMV 2024/2025</h1>
+<h1 style="text-align: center; font-weight: bold;">TEST CODING IMV 2024/2025</h1>
 
-<img title="a title" alt="Alt text" src="display/banner.png">
+<img title="Banner" alt="IMV Laboratory Open Recruitment" src="display/banner.png">
 
 ## ***PERATURAN TES CODING***
 
@@ -100,8 +100,6 @@
     # Expected result
     [1, 3, 6, 9, 12, 9, 5]
 
-    `````
-    `````
     # Two Random lenght lists
     x = [1, 2, 3, 4, 5]
     y = [4, 3, 2, 1, 2, 3, 4]
@@ -111,31 +109,38 @@
 
 3. Basic Python 
 Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
-    ```
+
+    ```python
     X = [[98, 88, 78],
-        [77, 78, 79],
-        [66, 67, 68],
-        [32, 33, 31]] 
+         [77, 78, 79],
+         [66, 67, 68],
+         [32, 33, 31]] 
     ```
 
 4. Buatlah program sederhana untuk memeriksa apakah sebuah bilangan itu ganjil atau genap!
-    ```
+
+    ```python
      # Expected result
-     Masukkan angka: 68
+     Masukkan angka : 68
      Angka tersebut adalah bilangan genap
+    ```
 
 5. Buatlah program yang dapat mengecek  input kata pertama merupakan anagram untuk input kata kedua!
-    ```
+
+    ```python
      # Expected result
-      Masukkan kata pertama: alur
-      Masukkan kata kedua: ular
+      Masukkan kata pertama : alur
+      Masukkan kata kedua   : ular
       alur dan ular adalah anagram
+    ```
 
 6. Buatlah program yang dapat mengecek sebuah input adalah angka Fibonnaci!
-    ```
+
+    ```python
      # Expected result
     Masukkan angka : 377
     Angka 377 merupakan angka fibonnaci
+    ```
 
 ### ***Tes Coding : Image Processing***
 
