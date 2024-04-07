@@ -56,10 +56,7 @@
     Budi : "Lestari dan Hari bukanlah seorang polisi" 
 
     Tentukan siapa yang merupakan polisi dan pencurinya.
- Jawaban : 
- Budi menyatakan bahwa lestari dan hari bukan seorang polisi, maka pernyataannya bisa dibuat menjadi lestari dan hari merupakan pencuri, dengan begitu Budi adalah polisi. (ingat polisi tidak boleh berbohong)
- Hari dengan pernyataannya bisa dikatakan sebagai pencuri karena kedua pernyataanya yang salah memenuhi persyaratan bahwa pencuri selalu berbohong.
- Lestari merupakan pencuri karena pernyataan dia salah tentang hari menuduh dirinya sebagai pencuri.
+
 
 ### ***Tes Coding : Basic Python***
 
@@ -97,6 +94,14 @@ x = [1, 2, 3, 4, 5]
 y = [4, 3, 2, 1, 2, 3, 4]
 # Expected result
 [4, 11, 20, 30, 42, 33, 30, 30, 34, 31, 20]
+
+
+3.Basic Python 
+Transpose matrix berikut
+```
+X = [[98, 88, 78],
+     [77, 78, 79],
+     [66. 67. 68]] 
 ```
 
 
@@ -114,7 +119,7 @@ y = [4, 3, 2, 1, 2, 3, 4]
 
     ![Ashlyn!](/display/ashlyn_segmentation.jpg "Ashlyn")
 
-### ***SOAL BONUS!***
+4. Ubah gambar di `ayon.jpeg` menjadi Grey-Scale Image, lalu simpan hasilnya dalam file baru 
 
 1. Fill The Blank this AutoEncoder Syntax 
 
