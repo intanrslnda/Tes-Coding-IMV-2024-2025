@@ -57,9 +57,9 @@
 
     Tentukan siapa yang merupakan polisi dan pencurinya.
 
-4.Suatu hari ada lima orang yang sedang memakan apel. Sebut mereka Ari, Bani, Cia, Danny, dan Elang. Ari menghabiskan apelnya sebelum Elang tetapi setelah Cia. Bani menghabiskannya setelah Danny. Cia menghabiskan apelnya setelah Bani sebelum Danny. 
+4. Suatu hari ada lima orang yang sedang memakan apel. Sebut mereka Ari, Bani, Cia, Danny, dan Elang. Ari menghabiskan apelnya sebelum Elang tetapi setelah Cia. Bani menghabiskannya setelah Danny. Cia menghabiskan apelnya setelah Bani sebelum Danny. 
 
-Siapakah yang berada di urutan no 3 dalam memakan apel tersebut? 
+    Siapakah yang berada di urutan no 3 dalam memakan apel tersebut? 
 
 
 ### ***Tes Coding : Basic Python***
