@@ -57,6 +57,10 @@
 
     Tentukan siapa yang merupakan polisi dan pencurinya.
 
+4.Suatu hari ada lima orang yang sedang memakan apel. Sebut mereka Ari, Bani, Cia, Danny, dan Elang. Ari menghabiskan apelnya sebelum Elang tetapi setelah Cia. Bani menghabiskannya setelah Danny. Cia menghabiskan apelnya setelah Bani sebelum Danny. 
+
+Siapakah yang berada di urutan no 3 dalam memakan apel tersebut? 
+
 
 ### ***Tes Coding : Basic Python***
 
@@ -109,10 +113,9 @@ Lakukanlah transpose matriks, pada matriks 3 x 4 berikut ini!
 
 4. Buatlah program sederhana untuk memeriksa apakah sebuah bilangan itu ganjil atau genap!
     ```
-     # Two random length lists
-
-
-
+     # Expected result
+     Masukkan angka: 68
+     Angka tersebut adalah bilangan genap
 ### ***Tes Coding : Image Processing***
 1. Ubah gambar di bawah ini menjadi grey-scale image
 (input gambar)
