@@ -56,10 +56,7 @@ Suatu hari ada suatu kasus pencurian yang melibatkan polisi dan pencuri.
     Budi : "Lestari dan Hari bukanlah seorang polisi" 
 
     Tentukan siapa yang merupakan polisi dan pencurinya.
- Jawaban : 
- Budi menyatakan bahwa lestari dan hari bukan seorang polisi, maka pernyataannya bisa dibuat menjadi lestari dan hari merupakan pencuri, dengan begitu Budi adalah polisi. (ingat polisi tidak boleh berbohong)
- Hari dengan pernyataannya bisa dikatakan sebagai pencuri karena kedua pernyataanya yang salah memenuhi persyaratan bahwa pencuri selalu berbohong.
- Lestari merupakan pencuri karena pernyataan dia salah tentang hari menuduh dirinya sebagai pencuri.
+
 
 ### ***Tes Coding : Basic Python***
 
@@ -97,13 +94,42 @@ y = [4, 3, 2, 1, 2, 3, 4]
 # Expected result
 [4, 11, 20, 30, 42, 33, 30, 30, 34, 31, 20]
 ```
-
-
+3. Transpose matrix di bawah ini
+```
+X = [[98, 88, 78],
+     [77, 78, 79],
+     [66. 67. 68]] 
+```
 
 ### ***Tes Coding : Image Processing***
-
-1. Transformasikan gambar dibawah ini ke domain frekuensi lalu kembalikan ke domain 
+1. Ubah gambar di bawah ini menjadi grey-scale image
+(input gambar)
+ 
 
 ### ***SOAL BONUS!***
 
-1. (Denoising Image)
+1. Fill The Blank this AutoEncoder Syntax 
+
+```
+# Buat Model Autoencoder
+
+# YOUR CODE HERE
+# Define input shape
+input_shape = (32, 32, 3)  # Adjust according to your image dimensions
+
+# Encoder
+inputs = Input(shape=input_shape)
+x = Conv2D(32, (3, 3), activation='relu', padding='same')(inputs)
+x = MaxPooling2D((2, 2), padding='same')(x)
+x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
+encoded = MaxPooling2D((2, 2), padding='same')(x)
+
+# Decoder
+x = Conv2D(64, (3, 3), activation='relu', padding='same')(encoded)
+x = UpSampling2D((2, 2))(x)
+x = Conv2D(32, (3, 3), activation='relu', padding='same')(x)
+x = UpSampling2D((2, 2))(x)
+decoded = Conv2D(3, (3, 3), activation='sigmoid', padding='same')(x)  # Output has same shape as input
+
+autoencoder = Model(__________, __________)
+ ```
