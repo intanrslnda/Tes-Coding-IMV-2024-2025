@@ -203,4 +203,15 @@ Lakukanlah operasi transpose pada matriks 3 x 4 berikut ini!
 
    ![text](/display/text_detection.png "Pure Text")
 
-<br>
+2. Buatlah arsitektur *Convolutional Neural Network* untuk klasifikasi paru-paru normal dan paru-paru pneumonia.
+
+   ![cnn](https://miro.medium.com/v2/resize:fit:828/format:webp/1*7_BCJFzekmPXmJQVRdDgwg.png "CNN")
+
+   Dataset dapat diunduh pada [**Chest Xray Classification**](https://huggingface.co/datasets/keremberke/chest-xray-classification)
+
+   Kriteria model yang harus dibuat:
+    - Gunakan arsitektur CNN rancangan sendiri! (dilarang menggunakan *Transfer Learning*).
+    - Dataset dibagi menjadi `70% training`, `20% validation` dan `10% test`.
+    - Diperbolehkan untuk augmentasi dataset untuk mendapat akurasi yang lebih baik.
+    - Hasil akhir memiliki akurasi > 70%.
+    - Epoch <= 10.
