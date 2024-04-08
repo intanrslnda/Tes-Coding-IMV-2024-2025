@@ -195,3 +195,12 @@ Lakukanlah operasi transpose pada matriks 3 x 4 berikut ini!
 <br>
 
 ### ***SOAL BONUS!***
+
+1. Buatlah Program *Text Detection* pada `text.jpg` yang dapat memberikan bonding box dan hasil deteksi dari gambar input-annya dengan ketentuan-ketentuan berikut :
+    - Library yang digunakan tidak ditentukan/dibebaskan oleh masing-masing peserta
+    - Bonding box hasil deteksi kata berwarna merah
+    - Font hasil deteksi memakai hershey duplex dan warna font harus abu-abu.
+
+   ![text](/display/text_detection.png "Pure Text")
+
+<br>
