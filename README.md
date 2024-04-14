@@ -188,11 +188,11 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
 
 2. Lakukan *Preprocessing* pada gambar `ayon.jpeg` dengan mengubah gambar menjadi *Grayscale* dan *BnW*. Simpan hasilnya dalam file baru yaitu `ayon_grayscale.jpeg` dan `ayon_bnw.jpeg`. **[10 POINTS]**
 
-   ![ayon!](/display/result_ayon.png "Ayon")
+   ![ayon!](/display/result_ahyeon.png "Ayon")
 
 3. Lakukan transformasi fourier pada gambar `ayon.jpeg` lalu simpan hasilnya dalam file baru yaitu `ayon_fft.jpeg`. **[10 POINTS]**
 
-    ![ayon!](/display/fft_ayon.png "Ayon")
+    ![ayon!](/display/FFT_AHYEON.png "Ayon")
 
 4. Lakukan *Image Preprocessing* berupa Image Rescaling dan Noise Reduction pada gambar `haku.jpg` dengan ketentuan berikut: **[15 POINTS]**
     - Image Rescaling menjadi 2 kali lipat gambar aslinya. Simpan hasilnya dalam file baru yaitu `haku_scaled.jpg`.
@@ -231,3 +231,6 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
     - Diperbolehkan untuk augmentasi dataset untuk mendapat akurasi yang lebih baik.
     - Hasil akhir memiliki akurasi > 70%.
     - Epoch <= 10.
+
+3. Buatlah contoh program untuk menjernihkan suatu foto teks (Autoencoder) **[50 POINTS]**
+
