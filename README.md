@@ -232,7 +232,7 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
     - Hasil akhir memiliki akurasi > 70%.
     - Epoch <= 10.
 
-3. Buatlah contoh program untuk mengenali huruf. **[50 POINTS]**
+3. Buatlah contoh program untuk mengenali huruf. **[40 POINTS]**
 
     ![hasil](/display/hasil_recognition.png "Hasil")
     
