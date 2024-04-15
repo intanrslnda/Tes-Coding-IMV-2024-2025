@@ -232,5 +232,17 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
     - Hasil akhir memiliki akurasi > 70%.
     - Epoch <= 10.
 
-3. Buatlah contoh program untuk menjernihkan suatu foto teks (Autoencoder) **[50 POINTS]**
+3. Buatlah contoh program untuk mengenali huruf. **[50 POINTS]**
+
+    ![hasil](/display/hasil_recognition.png "Hasil")
+    
+    Dataset dapat diunduh melalui [**Handwritten Recognition Model**](https://www.kaggle.com/code/mohamedsherif444/handwritten-recognition-model/input)
+
+    Ketentuan yang harus diikuti adalah berikut :
+    - Hasil akhir memiliki akurasi > 70%.
+    - Epoch <= 20
+    - Diperbolehkan menggunakan berbagai pemrosesan gambar untuk hasil yang lebih optimal (arsitektur yang digunakan bebas, boleh melakukan augmentasi dataset)
+    
+
+
 
