@@ -14,7 +14,7 @@
 6. **Tidak diperkenankan menggunakan ***AI Tools*** dalam bentuk apapun.**
 7. Waktu pengerjaan maksimal **100 menit**, bagi yang sudah selesai diperkenankan untuk tetap ditempat dan menunggu arahan dari asisten.
 8. Calon asisten diperbolehkan minum selama tes coding berlangsung.
-9. Hasil coding dikumpulkan dengan cara membuat repository pada akun GitHub pribadi calon asisten dengan format nama repository `tes-coding-imv-2024_nama_nim`. Pastikan repository bersifat **public**. Kemudian kumpulkan link repository tersebut pada [**FORM PENGUMPULAN JAWABAN**](https://tel-u.ac.id/). 
+9. Hasil coding dikumpulkan dengan cara membuat repository pada akun GitHub pribadi calon asisten dengan format nama repository `tes-coding-imv-2024_nama_nim`. Pastikan repository bersifat **public**. Kemudian kumpulkan link repository tersebut pada [**FORM PENGUMPULAN JAWABAN**](https://forms.gle/rZRz5SJ7YC4qFnZWA). 
 10. Berkas yang dikumpulkan berupa file `.py` atau `.ipynb` serta `screenshoots` hasil output setiap program sesuai dengan nomor soal.
 
     **Contoh strukur folder yang dikumpulkan**
@@ -219,6 +219,17 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
 
    ![text](/display/text_detection.png "Pure Text")
 
+3. Buatlah contoh program untuk mengenali huruf. **[40 POINTS]**
+
+    ![hasil](/display/hasil_recognition.png "Hasil")
+    
+    Dataset dapat diunduh melalui [**Handwritten Recognition Model**](https://www.kaggle.com/code/mohamedsherif444/handwritten-recognition-model/input)
+
+    Ketentuan yang harus diikuti adalah berikut :
+    - Hasil akhir memiliki akurasi > 70%.
+    - Epoch <= 20
+    - Diperbolehkan menggunakan berbagai pemrosesan gambar untuk hasil yang lebih optimal (arsitektur yang digunakan bebas, boleh melakukan augmentasi dataset)
+
 2. Buatlah arsitektur *Convolutional Neural Network* untuk klasifikasi paru-paru normal dan paru-paru pneumonia. **[50 POINTS]**
 
    ![cnn](https://miro.medium.com/v2/resize:fit:828/format:webp/1*7_BCJFzekmPXmJQVRdDgwg.png "CNN")
@@ -231,18 +242,3 @@ Lakukanlah operasi transpose pada matriks dengan ukuran minimal 3 x 3! **(dilara
     - Diperbolehkan untuk augmentasi dataset untuk mendapat akurasi yang lebih baik.
     - Hasil akhir memiliki akurasi > 70%.
     - Epoch <= 10.
-
-3. Buatlah contoh program untuk mengenali huruf. **[40 POINTS]**
-
-    ![hasil](/display/hasil_recognition.png "Hasil")
-    
-    Dataset dapat diunduh melalui [**Handwritten Recognition Model**](https://www.kaggle.com/code/mohamedsherif444/handwritten-recognition-model/input)
-
-    Ketentuan yang harus diikuti adalah berikut :
-    - Hasil akhir memiliki akurasi > 70%.
-    - Epoch <= 20
-    - Diperbolehkan menggunakan berbagai pemrosesan gambar untuk hasil yang lebih optimal (arsitektur yang digunakan bebas, boleh melakukan augmentasi dataset)
-    
-
-
-
